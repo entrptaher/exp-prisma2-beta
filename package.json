@@ -6,6 +6,7 @@
   "author": "Taher <entrptaher@gmail.com>",
   "main": "index.js",
   "scripts": {
+    "serve": "nodemon scripts/api.js",
     "create": "node scripts/index.js",
     "bench": "concurrently \"yarn run create\" \"yarn run create\""
   },
