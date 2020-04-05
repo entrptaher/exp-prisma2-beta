@@ -10,12 +10,12 @@ yarn prisma generate
 yarn prisma migrate up --experimental --verbose
 ```
 
-Run the code to create 100 users with 100 chars each (just x repeated 100 times). By default it's 100 loops and 100 chars. 
+Run the code to create 100 users with 100 chars each (just x repeated 100 times). 
+
+By default it's 100 loops and 100 chars and spawn/fork 1 child process.
 
 ```sh
-node scripts/index.js --loops 100 --chars 100
-# or the following
-yarn run create --loops 100 --chars 100
+yarn run create --loops 100 --chars 100 --forks 1
 ```
 
 If you use yarn run command, you get to see the timing provided by yarn as a bonus :D .
@@ -40,4 +40,6 @@ Benchmark #1: yarn run create --loops 100 --chars 100
 Benchmark #1: yarn run create --loops 1000 --chars 100
   Time (mean ± σ):      5.191 s ±  0.046 s    [User: 5.897 s, System: 0.937 s]
   Range (min … max):    5.135 s …  5.270 s    10 runs
+
+
 ```

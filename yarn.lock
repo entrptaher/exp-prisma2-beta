@@ -16,3 +16,8 @@ minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+
+workerpool@^5.0.4:
+  version "5.0.4"
+  resolved "https://registry.npm.taobao.org/workerpool/download/workerpool-5.0.4.tgz#4f67cb70ff7550a27ab94de25b0b843cd92059a2"
+  integrity sha1-T2fLcP91UKJ6uU3iWwuEPNkgWaI=
